@@ -1,0 +1,51 @@
+/* Create a CSS stylesheet for HTML page from Assignment B. 
+It should meet the following requirements:
+1.	Define style and size of font for form elements
+2.	Define colors for field labels 
+(mandatory fields should have different color from other fields) */
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  width: 100%;
+  background-color: pink;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: violet;
+}
+.radio {
+  width: 100;
+  text-align: center;
+}
+
+.radio label {
+  color: brown;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+label {
+  color: mediumslateblue;
+  font-weight: 500;
+  font-size: 30px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/assignmentD.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- a.	text input field -->
+<!-- b.	password field -->
+<!-- c.	checkbox -->
+<!-- d.	radiobutton group -->
+<!-- e.	dropdown list -->
+<!-- f.	text area -->
+<!-- g.	submit and reset buttons -->
+
+        <input type="text", name="email", placeholder="Type your email">
+        <input type="password" name="password", placeholder="Type your password">
+        <div class="radio">
+            <p>Select your gender</p>
+            <input type="radio" id="male" name="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="Female" name="Female" value="Female">
+            <label for="Female">Female</label>
+        </div>
+        <br>
+        <div>
+            <label class="hobby" for="hobby">Choose your hobby:</label>
+            <select name="hobby" id="hobby">
+              <option value="piano">piano</option>
+              <option value="reading">reading</option>
+              <option value="gym">gym</option>
+              <option value="programming">programming</option>
+            </select>
+        </div>
+        <textarea name="text" cols="30" rows="10" placeholder="Explay your hobby"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="reset">
+    </form>
+    
+</body>
+</html>

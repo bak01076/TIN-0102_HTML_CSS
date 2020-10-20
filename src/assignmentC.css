@@ -1,0 +1,36 @@
+/* 1.	Define font style and size for paragraphs and headers
+2.	Define style and color of table borders
+3.	Remove underlines from links
+4.	Change the style of markers for unordered lists */
+
+body {
+  background: white;
+}
+header,
+p {
+  font-family: "verdana";
+  font-weight: 500;
+  font-size: 30px;
+}
+
+table {
+  width: 500px;
+  height: 200px;
+  border: 1px solid red;
+  color: coral;
+  background-color: pink;
+}
+table:last-child {
+  width: 500px;
+  height: 50px;
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+ul {
+  list-style-type: circle;
+}
+a {
+  text-decoration: none;
+}
