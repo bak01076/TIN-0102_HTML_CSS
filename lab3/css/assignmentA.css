@@ -104,6 +104,10 @@ blockquote {
     -moz-column-count: 1;
     column-count: 1;
   }
+  .articleImg {
+    width: 200px;
+    height: 250px;
+  }
 }
 
 footer {
