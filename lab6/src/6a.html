@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>6A</title>
+  </head>
+  <body>
+    <div>
+      <label for="tempretureInput" class="important"
+        >Tempreture Calculater</label
+      >
+      <input name="tempretureInput" id="tempretureInput" />
+      <div class="radioBtns">
+        <input
+          type="radio"
+          id="Celsius"
+          name="Tempreture Option"
+          value="Celsius"
+          checked="checked"
+        />
+        <label for="Celsius">Celsius</label>
+        <input
+          type="radio"
+          id="Fahrenheit"
+          name="Tempreture Option"
+          value="Fahrenheit"
+        />
+        <label for="Fahrenheit">Fahrenheit</label>
+      </div>
+      <div>
+        <button onclick="convertTemperature()">Convert to the other</button>
+      </div>
+      <label id="result"></label>
+    </div>
+    <script src="./js/6a.js"></script>
+  </body>
+</html>
