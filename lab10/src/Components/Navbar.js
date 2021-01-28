@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <nav>
       <div className="navList">
-        <Link to="/temperature">
+        <Link to="/">
           <button>Temperature</button>
         </Link>
         <Link to="distance">

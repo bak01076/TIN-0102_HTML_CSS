@@ -12,12 +12,7 @@ function App() {
       <div className="App">
         <Router>
           <NavBar />
-          <Route
-            exact
-            path="/"
-            render={(props) => <Redirect to="/temperature" />}
-          />
-          <Route path="/temperature" component={TemperatureConverter} />
+          <Route exact path="/" component={TemperatureConverter} />
           <Route path="/distance" component={DistanceConverter} />
         </Router>
       </div>
